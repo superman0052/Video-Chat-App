@@ -1,0 +1,289 @@
+.App {
+  position: relative;
+  text-align: center;
+}
+
+.container{
+  width: 50%;
+  height: 55vh;
+  position: absolute;
+  top: 160px;
+  left: 320px;
+  background-color: white;
+  border-radius: 10px;
+ 
+}
+.lobby-header{
+  position: absolute;
+  top: 20px;
+  left: 180px;
+  padding: 10px;
+  font-size: 40px;
+  font-family: 'Times New Roman', fantasy;
+  border: 3px solid black;
+  width: fit-content;
+  border-radius: 5px;
+  margin: auto;
+}
+
+.box-container{
+  position: absolute;
+  width: 70%;
+  top: 120px;
+  left: 50px;
+  padding: 10px;
+  margin: 8px;
+}
+
+label {
+  position: absolute;
+  left: 40px;
+  font-size: 22px;
+  font-weight: 800;
+  margin: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input{
+  width: 60%;
+  position: absolute;
+  right: 0px;
+  left: 180px;
+  height: 35px;
+  padding: 8px;
+  border-bottom: 3px solid black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-size: 15px;
+}
+
+.button{
+  position: absolute;
+  top: 170px;
+  left: 220px;
+  font-size: 25px;
+  color: white;
+  background-color: crimson;
+  border-radius: 5px;
+  width: 25%;
+  height: 45px;
+}
+
+.button:hover{
+  font-size: 28px;
+  color: white;
+  background-color: rgb(20, 20, 20);
+  border: none;
+  cursor: pointer;
+}
+
+
+/*Room.jsx*/
+.heading{
+  position: absolute;
+  top: 10px;
+  left: 480px;
+  width: 30%;
+  height: 8vh;
+  border: 3px dotted black;
+  font-size: 35px;
+  font-weight: 700;
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+}
+.on-off{
+  position: absolute;
+  top: 60px;
+  left: 650px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: Corbel, serif;
+  border-bottom: 2px solid black;
+}
+
+.video-container{
+  position: absolute;
+  top: 120px;
+  left: 50px;
+  width: 30%;
+  height: 80vh;
+  background-color: wheat;
+  border-radius: 8px;
+}
+
+.video-My{
+  margin-top: 12px;
+
+}
+.button-Call{
+  font-size: 15px;
+  margin: 10px;
+  color: white;
+  background-color: crimson;
+  border: none;
+  width: 15%;
+  height: 38px;
+  cursor: pointer;
+  border-radius: 5px;
+
+}
+.button-End{
+  position: absolute;
+  bottom: 0px;
+  left: 150px;
+  font-size: 15px;
+  margin: 10px;
+  color: white;
+  background-color: crimson;
+  border: none;
+  width: 18%;
+  height: 38px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.button-End:hover{
+  position: absolute;
+  bottom: 0px;
+  left: 150px;
+  font-size: 14px;
+  margin: 10px;
+  color: white;
+  background-color: black;
+  border: none;
+  width: 18%;
+  height: 38px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button-Send{
+  font-size: 18px;
+  margin: 10px;
+  color: white;
+  background-color: crimson;
+  border: none;
+  width: 30%;
+  height: 38px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button-Call:hover{
+  font-size: 14px;
+  color: white;
+  background-color: black;
+  border: none;
+  cursor: pointer;
+}
+
+.button-Send:hover{
+  font-size: 17px;
+  color: white;
+  background-color: black;
+  border: none;
+  cursor: pointer;
+}
+
+/*Chatting Application*/
+.chat-container{
+  position: absolute;
+  top: 110px;
+  left: 900px;
+  width: 30%;
+  height: 80vh;
+  border: 2px solid black;
+  background-color: wheat;
+  border-radius: 8px;
+}
+h1{
+    width: 60%;
+    height: 60px;
+    margin: auto;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.footer{
+    position: absolute;
+    bottom: 9px;
+    left: 0px;
+    width: 100%;
+    height: 8%;
+    border-radius: 8px;
+}
+.put{
+    position: absolute;
+    top: 11px;
+    left: 0px;
+    width: 78%;
+    height: 45%;
+    border: 1px solid black;
+    font-size: 20px;
+    padding: 10px;
+}
+#btn{
+    position: absolute;
+    top: 10px;
+    left: 82%;
+    width: 18%;
+    height: 6.5vh;
+    border: 1px solid black;
+    font-size: 20px;
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+}
+#btn:hover{
+    position: absolute;
+    top: 10px;
+    left: 82%;
+    width: 18%;
+    height: 6.5vh;
+    border: 1px solid black;
+    font-size: 19px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.dis-btn{
+    position: absolute;
+    top: 10px;
+    left: 91%;
+    width: 8%;
+    height: 7vh;
+    border: 1px solid black;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.dis-btn:hover{
+    position: absolute;
+    top: 10px;
+    left: 91%;
+    width: 8%;
+    height: 7vh;
+    border: 1px solid black;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+p{
+    padding-top: 20px;
+    padding-right: 10px;
+    width: 50%;
+    height: 40px;
+    position: absolute;
+    left: 190px;
+    border-radius: 20px 20px 0px 20px;
+    top: 50px;
+    text-align: right;
+    z-index: revert;
+    background-color: crimson;
+    font-size: 30px;
+    font-weight: 800;
+}
